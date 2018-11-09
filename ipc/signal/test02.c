@@ -5,11 +5,6 @@
 
 
 
-/*
-
-
- * */
-
 void SIGUSR1_handler(int signum, siginfo_t *si, void *ctx) {
     if (signum == SIGUSR1){
         pid_t pid;
